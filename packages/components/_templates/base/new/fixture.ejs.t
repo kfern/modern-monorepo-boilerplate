@@ -1,5 +1,5 @@
 ---
-to: src/<%= h.inflection.titleize(name) %>/<%= h.inflection.titleize(name) %>fixture.tsx
+to: src/<%= h.inflection.titleize(name) %>/<%= h.inflection.titleize(name) %>.fixture.tsx
 ---
 import React from 'react';
 import <%= h.inflection.titleize(name) %> from './<%= h.inflection.titleize(name) %>';
