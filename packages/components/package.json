@@ -14,5 +14,11 @@
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
+  },
+  "devDependencies": {
+    "hygen": "^6.0.4"
+  },
+  "scripts": {
+    "new": "hygen base new"
   }
 }
