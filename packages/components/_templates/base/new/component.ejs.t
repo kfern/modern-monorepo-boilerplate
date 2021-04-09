@@ -1,8 +1,17 @@
 ---
 to: src/<%= h.inflection.titleize(name) %>/<%= h.inflection.titleize(name) %>.tsx
 ---
-import React, { ReactElement } from 'react';
+import React from 'react';
 
-const <%= h.inflection.titleize(name) %> = (): ReactElement => <button type="submit">Button</button>;
+type Props = {
+  greeting: string;
+  name?: string;
+};
 
-export default <%= h.inflection.titleize(name) %>;
+export default ({ greeting = 'Hello', name = '<%= h.inflection.titleize(name) %>' }: Props) => {
+  return (
+    <h1>
+      {greeting} <strong>{name}</strong>!
+    </h1>
+  );
+}
