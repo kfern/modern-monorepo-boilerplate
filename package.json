@@ -9,7 +9,8 @@
     "build": "lerna run build",
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "test": "jest"
+    "test": "jest",
+    "new": "lerna --scope @namespace/components exec -- npm run new"
   },
   "devDependencies": {
     "enzyme-to-json": "^3.4.3",
