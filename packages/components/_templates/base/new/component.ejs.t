@@ -8,7 +8,7 @@ type Props = {
   name?: string;
 };
 
-export default ({ greeting = 'Hello', name = '<%= h.inflection.titleize(name) %>' }: Props) => {
+export default ({ greeting, name }: Props) => {
   return (
     <h1>
       {greeting} <strong>{name}</strong>!
