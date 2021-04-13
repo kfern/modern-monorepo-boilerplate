@@ -2,7 +2,7 @@
 to: src/<%= h.inflection.titleize(name) %>/<%= h.inflection.titleize(name) %>.fixture.tsx
 ---
 import React from 'react';
-import <%= h.inflection.titleize(name) %> from './<%= h.inflection.titleize(name) %>';
+import { <%= h.inflection.titleize(name) %> } from '..';
 
 export default {
   Test: <<%= h.inflection.titleize(name) %> greeting="Hi" name="<%= h.inflection.titleize(name) %>" />,
