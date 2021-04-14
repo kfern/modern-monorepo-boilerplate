@@ -10,7 +10,6 @@
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
-    "cosmos": "cosmos",
     "new": "lerna --scope @namespace/components exec -- npm run new"
   },
   "devDependencies": {
