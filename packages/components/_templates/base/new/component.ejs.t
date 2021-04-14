@@ -8,6 +8,12 @@ type Props = {
   name?: string;
 };
 
+/**
+ * Short description
+ * 
+ * @param {string} greeting   A greeting , e.g. 'Hi', 'Hello'
+ * @param {string} name       A name
+ */
 export default ({ greeting, name }: Props) => {
   return (
     <h1>
