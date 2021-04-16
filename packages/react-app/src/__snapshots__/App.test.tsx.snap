@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App shallow: Test fixture is stable 1`] = `
+<Admin
+  dataProvider={
+    Object {
+      "create": [Function],
+      "delete": [Function],
+      "deleteMany": [Function],
+      "getList": [Function],
+      "getMany": [Function],
+      "getManyReference": [Function],
+      "getOne": [Function],
+      "update": [Function],
+      "updateMany": [Function],
+    }
+  }
+>
+  <Resource
+    list={[Function]}
+    name="posts"
+  />
+  <Resource
+    list={[Function]}
+    name="comments"
+  />
+</Admin>
+`;
